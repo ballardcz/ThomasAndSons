@@ -1,0 +1,183 @@
+<!-- employment print out applications.
+
+authorzations relase for drivers applications->on the form signature-
+
+
+
+-E signatures
+
+-drivers license
+-social security card
+-date of birth
+- -->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+  crossorigin="anonymous">
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<title>Thomas & Sons Trucking
+</title>
+
+
+  <!-- <div class="container"> -->
+  <img src= "https://static.pexels.com/photos/90633/pexels-photo-90633.jpeg">
+  <!-- </div> -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Thomas & Sons Trucking</a>
+    <button class="navbar-toggler hide" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- <div class="collapse navbar-collapse" id="navbarNav"> -->
+    <div class="navbar-collapse hide">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Forms</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+      </ul>
+    </div>
+    <div class=" btn-group dropleft ">
+        <button type="button" class="btn btn-primary dropdown-toggle hidden" aria-labelledby="menu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           
+          <span class=" navbar-toggler-icon"></span>
+        </button>
+
+           <div class=" dropdown-menu" role="menu" aria-labelledby="menu1">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Forms</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+              </div>
+          <!-- Dropdown menu links -->
+      </div>
+      
+  </nav>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="container" id = "mission">Our mission is to ensure the safe, prompt, and efficient delivery of your freight! 
+          Here at Thomas & Sons trucking we value Our customers and the freight they entrust with us! Our customer 
+          service department has Excellent expertise in handling any and all of your Freight Challenges. We are equipped 
+          to work with many of our customers needs in a safe, productive manner. </div>
+      </div>
+      <div class="col-md-2"></div>
+    </div>
+  </div>
+
+  <style>
+    /* body,html{ 
+    background: url(http://www.guoguiyan.com/http://www.guoguiyan.com/data/out/201/70266960-truck-wallpapers.jpg-wallpapers.html) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
+  img.bg {
+    padding: 0;
+    margin: 0;
+  }
+  img { /* set relative picture size */
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.7;
+    }
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 0%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+.button.navbar-toggler {
+
+  @media only screen and (max-device-width:480px){
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+    }
+    @media only screen and (device-width:768px){
+       /* default iPad screens */
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#mission {
+  background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    clear: both;
+    margin: 0px auto 0px auto;
+    padding: 0 20px 20px 20px;
+    position: relative;
+    opacity: 0.8;
+}
+
+@media(max-width: 991px) {
+   .hide {
+  display: none;
+  }
+}
+ 
+@media only screen and (min-width: 991px) {
+.hidden {
+  display: none;
+  }
+}
+  </style>
+
+</body>
+<footer>
+
+</footer>
+
+</html>
