@@ -1,0 +1,77 @@
+ /* body,html{ 
+    background: url(http://www.guoguiyan.com/http://www.guoguiyan.com/data/out/201/70266960-truck-wallpapers.jpg-wallpapers.html) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  } */
+
+  img.bg {
+    padding: 0;
+    margin: 0;
+  }
+  img { /* set relative picture size */
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.7;
+    }
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 0%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+.button.navbar-toggler {
+
+  @media only screen and (max-device-width:480px){
+       /* styles for mobile browsers smaller than 480px; (iPhone) */
+    }
+    @media only screen and (device-width:768px){
+       /* default iPad screens */
+    }
+    /* different techniques for iPad screening */
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+      /* For portrait layouts only */
+    }
+
+    @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+      /* For landscape layouts only */
+    }
+}
+
+img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#mission {
+  background-color: white;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    background-color: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    clear: both;
+    margin: 0px auto 0px auto;
+    padding: 0 20px 20px 20px;
+    position: relative;
+    opacity: 0.8;
+}
+
+@media(max-width: 991px) {
+   .hide {
+  display: none;
+  }
+}
+ 
+@media only screen and (min-width: 991px) {
+.hidden {
+  display: none;
+  }
+}
