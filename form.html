@@ -79,83 +79,140 @@
   <div class="container">
     <div class="row">
 
-        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-            FORM1
-          </button>
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+        FORM1
+      </button>
 
       <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLongTitle">Application Form</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
+
+            <div>
+              <ol>
+                <li>Social Security Number</li>
+                <li>Home address history for the past 3 years</li>
+                <li>Current driver license number and driver license history for the past 3 years</li>
+                <li>Employment history up to 10 years</li>
+                <li>History of traffic accidents, violations and/or convictions from the last 3 years (including DUI or reckless
+                  driving conviction and license suspension)</li>
+              </ol>
+            </div>
+
             <div class="modal-body">
               <form class="needs-validation" novalidate>
                 <div class="form-row">
                   <div class="col-md-4 mb-3">
                     <label for="validationTooltip01">First name</label>
-                    <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" value="John" required>
+                    <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" required>
                     <div class="valid-tooltip">
                       Looks good!
                     </div>
                   </div>
                   <div class="col-md-4 mb-3">
-                    <label for="validationTooltip02">Last name</label>
-                    <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" value="Johnson" required>
-                    <div class="valid-tooltip">
-                      Looks good!
-                    </div>
-                  </div>
-                  <div class="col-md-4 mb-3">
-                    <label for="validationTooltip06">Middle Name</label>
+                    <label for="validationTooltip02">Middle Name</label>
                     <div class="input-group"></div>
-                      <input type="text" class="form-control" id="validationTooltip06" placeholder="Middle name" value= "A-Z" required>
-                      <div class="valid-tooltip">
-                        Looks good!
-                      </div>
+                    <input type="text" class="form-control" id="validationTooltip02" placeholder="Middle name" required>
+                    <div class="valid-tooltip">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationTooltip03">Last name</label>
+                    <input type="text" class="form-control" id="validationTooltip03" placeholder="Last name" required>
+                    <div class="valid-tooltip">
+                      Looks good!
                     </div>
                   </div>
                 </div>
+
                 <div class="form-row">
-                  <div class="col-md-6 mb-3">
-                    <label for="validationTooltip03">City</label>
-                    <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+                  <div class="col-md-12 mb-12">
+                    <label for="validationTooltip04">Street Address</label>
+                    <input type="text" class="form-control" id="validationTooltip04" placeholder="Street Address" required>
+                    <div class="invalid-tooltip">
+                      Please provide a valid Street Address.
+                    </div>
+                  </div>
+                </div>
+
+                <br>
+
+                <div class="form-row">
+                  <div class="col-md-5 mb-3">
+                    <label for="validationTooltip05">City</label>
+                    <input type="text" class="form-control" id="validationTooltip05" placeholder="City" required>
                     <div class="invalid-tooltip">
                       Please provide a valid city.
                     </div>
                   </div>
-                  <div class="col-md-3 mb-3">
-                    <label for="validationTooltip04">State</label>
-                    <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+                  <div class="col-md-4 mb-3">
+                    <label for="validationTooltip06">State</label>
+                    <input type="text" class="form-control" id="validationTooltip06" placeholder="State" required>
                     <div class="invalid-tooltip">
                       Please provide a valid state.
                     </div>
                   </div>
                   <div class="col-md-3 mb-3">
-                    <label for="validationTooltip05">Zip</label>
-                    <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+                    <label for="validationTooltip07">Zip</label>
+                    <input type="text" class="form-control" id="validationTooltip07" placeholder="Zip" required>
                     <div class="invalid-tooltip">
                       Please provide a valid zip.
                     </div>
                   </div>
                 </div>
-                <button class="btn btn-primary" type="submit">Submit form</button>
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
-              </form>
+
+                <div class="form-row">
+                  <div class="col-md-6 mb-6">
+                    <label for="validationTooltip08">Home Phone</label>
+                    <input type="text" class="form-control" id="validationTooltip08" placeholder="Home Phone" required>
+                    <div class="invalid-tooltip">
+                      Please provide a valid Home phone number.
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-6">
+                    <label for="validationTooltip09">Cell Phone</label>
+                    <input type="text" class="form-control" id="validationTooltip09" placeholder="Cell phone" required>
+                    <div class="invalid-tooltip">
+                      Please provide a valid Cell phone number.
+                    </div>
+                  </div>
+                </div>
+
+                <br>
+
+                <div class="form-row">
+                  <div class="col-md-12 mb-12">
+                    <label for="validationTooltip10">Email</label>
+                    <input type="text" class="form-control" id="validationTooltip10" placeholder="Name@Email.com" required>
+                    <div class="invalid-tooltip">
+                      Please provide a valid Email Address.
+                    </div>
+                  </div>
+                </div>
+
             </div>
+            <div class="center">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </div>
+  </div>
 
 </body>
 <footer>
-<!-- employment print out applications.
+  <!-- employment print out applications.
 
 authorzations relase for drivers applications->on the form signature-
 

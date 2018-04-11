@@ -58,3 +58,7 @@ img {
   display: none;
   }
 }
+
+div.center { 
+  margin:0 auto
+}
